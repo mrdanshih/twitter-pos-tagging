@@ -2,18 +2,18 @@ import numpy as np
 
 
 def run_viterbi(emission_scores, trans_scores, start_scores, end_scores):
-    """Run the Viterbi algorithm.
+    """Run the Viterbi algorithm for decoding
 
     N - number of tokens (length of sentence)
     L - number of labels
 
-    As an input, you are given:
+    Given:
     - Emission scores, as an NxL array
     - Transition scores (Yp -> Yc), as an LxL array
     - Start transition scores (S -> Y), as an Lx1 array
     - End transition scores (Y -> E), as an Lx1 array
 
-    You have to return a tuple (s,y), where:
+    Returns:
     - s is the score of the best sequence
     - y is the size N array/seq of integers representing the best sequence.
     """
