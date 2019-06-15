@@ -36,7 +36,7 @@ RB	=>	ADV	Degree=Pos	n't, not, also, only, as
 RBR	=>	ADV	Degree=Cmp	more, earlier, less, higher, further
 RBS	=>	ADV	Degree=Sup	most, best, least, hardest, Worst
 RP	=>	PRT	_	up, out, off, down, in
-SYM	=>	.	_	
+SYM	=>	X	_	
 TO	=>	VERB	PartType=Inf|VerbForm=Inf	to, na
 UH	=>	PRT	_	yes, well, no, OK, oh
 VB	=>	VERB	VerbForm=Inf	be, have, make, buy, get
