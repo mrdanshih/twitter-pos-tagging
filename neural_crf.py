@@ -340,7 +340,6 @@ class NeuralCrf(Model):
             constrain_crf_decoding = label_encoding is not None
         if calculate_span_f1 is None:
             calculate_span_f1 = label_encoding is not None
-
         self.label_encoding = label_encoding
         if constrain_crf_decoding:
             if not label_encoding:

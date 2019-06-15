@@ -16,7 +16,7 @@ def run_viterbi_test():
     import numpy as np
     from itertools import product
 
-    maxN = 6 # maximum length of a sentence (min is 1)
+    maxN = 7 # maximum length of a sentence (min is 1)
     maxL = 4 # maximum number of labels (min is 2)
     num_tests = 1000 # number of sentences to generate
     random.seed(0)
